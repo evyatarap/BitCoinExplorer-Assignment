@@ -23,8 +23,3 @@ Once the environment is configured, start the application with the command:
 ```sh
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```
-
-## TODO
-- Make the caching TTLs configurable through environment variables.
-- Refactor the database connection to be more abstract and less tightly coupled to the RedisDB implementation.
-- Implement unit tests to ensure the reliability and correctness of the application.
